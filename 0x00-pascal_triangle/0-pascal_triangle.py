@@ -1,3 +1,6 @@
+#!/usr/bin/python3
+"""Pascal Triangle Interview Challenge"""
+
 def pascal_triangle(n):
     """
     Generate Pascal's Triangle up to the nth row.
@@ -20,8 +23,3 @@ def pascal_triangle(n):
 
     return triangle
 
-# Example usage
-if __name__ == "__main__":
-    result = pascal_triangle(5)
-    for row in result:
-        print(row)
