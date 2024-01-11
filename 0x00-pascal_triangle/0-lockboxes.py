@@ -8,7 +8,7 @@ def canUnlockAll(boxes):
     - boxes (list of lists): A list of boxes, where each box is represented as a list of keys.
 
     Returns:
-    - bool: True if all boxes can be opened, False otherwise.
+    - bool: True if all boxe_s can be opened, False otherwise.
     """
     # Set to keep track of opened boxes
     opened_boxes = set([0])
