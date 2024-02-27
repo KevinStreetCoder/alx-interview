@@ -28,7 +28,3 @@ def makeChange(coins, total):
 
     return min_coins[total] if min_coins[total] != float('inf') else -1
 
-# Test cases
-if __name__ == "__main__":
-    print(makeChange([1, 2, 25], 37))  # Output: 7
-    print(makeChange([1256, 54, 48, 16, 102], 1453))  # Output: -1
